@@ -10,14 +10,14 @@ body{
 		}
 	}
 	section.info{
-		background-color: $beige;
+		background-color: $beige_background;
 		margin-top: -1.1%;
 		ul{
 			display: -webkit-box;
 			li{
 				margin-left: 5%;
 				img{
-					border:10px solid $arena_logo;
+					border:10px solid $beige;
 					@include imagen-info();
 				}
 			}
@@ -28,7 +28,14 @@ body{
 				li{
 					width: 70%;
 					h5{
-						
+						font-weight:bold;
+					}
+					p{
+						text-align: justify;
+					}
+					a{
+						color: #000;
+						background-color:$beige;
 					}
 				}
 			}
