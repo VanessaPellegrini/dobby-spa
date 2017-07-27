@@ -6773,7 +6773,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   /*shape-rendering: crispEdges;*/ }
 
 body {
-  background-color: #E1E1E1; }
+  background-color: #000; }
   body nav {
     background-color: #2F1F20; }
     body nav ul {
@@ -6802,9 +6802,16 @@ body {
         body section.info div.caja-texto.row ul li h5 {
           font-weight: bold; }
         body section.info div.caja-texto.row ul li p {
-          text-align: justify; }
+          text-align: justify;
+          padding-bottom: 20px; }
         body section.info div.caja-texto.row ul li a {
           color: #000;
           background-color: #D8BE85; }
+  body section.welcome {
+    background-color: #F4F4F4; }
+  body section.about {
+    background-color: #4A3A3A; }
+  body footer {
+    background-color: #2F1F1F; }
 
 /*# sourceMappingURL=main.css.map */

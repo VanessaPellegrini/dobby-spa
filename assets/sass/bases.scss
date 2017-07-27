@@ -1,5 +1,5 @@
 body{
-	background-color:#E1E1E1;
+	background-color:#000;
 	nav{
 		background-color: $marron;
 		ul{
@@ -32,6 +32,7 @@ body{
 					}
 					p{
 						text-align: justify;
+						padding-bottom: 20px;
 					}
 					a{
 						color: #000;
@@ -41,5 +42,13 @@ body{
 			}
 		}
 	}
-
+	section.welcome{
+		background-color:$gris_background;
+	}
+	section.about{
+		background-color:$marron_background;
+	}
+	footer{
+		background-color:$marron_oscuro_background;
+	}
 }
