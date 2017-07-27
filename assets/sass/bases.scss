@@ -11,7 +11,8 @@ body{
 	}
 	section.info{
 		background-color: $beige_background;
-		margin-top: -1.1%;
+		border-top-color: $marron;
+    	border-top-style: solid;
 		ul{
 			display: -webkit-box;
 			li{
@@ -44,9 +45,64 @@ body{
 	}
 	section.welcome{
 		background-color:$gris_background;
+		border-top-color: $marron;
+    	border-top-style: solid;
+    	margin-top: -1.5%;
+    	div.row{
+    		padding: 40px;
+    	}
+    	div.caja-wel-img{
+    		background-image: url('../img/welcom_thumb.jpg');
+    		background-repeat: no-repeat;
+    		border-radius: 20px;
+    		background-size: cover;
+    		height: 250px;
+    		margin-top: 50px;
+    	}
+    	div.caja-wel-txt{
+    		padding: 0 10%;
+    		h4, i{
+    			color:$arena_logo;
+    		}
+    	}
 	}
 	section.about{
 		background-color:$marron_background;
+		margin-top: -20px;
+		border-top-color: $beige;
+    	border-top-style: solid;
+    	color:$beige;
+    	text-align:justify;
+    	padding: 5% 1%;
+    	hr{
+    		width: 50%;
+    		color:$beige;
+    	}
+    	hr.uno{
+    		position: relative;
+    		right: -23%;
+    	}
+    	hr.dos{
+    		position: relative;
+    		left: -23%;
+    	}
+    	p.inferior{
+    		margin-top: -30px;
+    	}
+    	div.img-home{
+    		background-image: url('../img/home1.jpg');
+    		background-repeat: no-repeat;
+    		border-radius: 20px;
+    		background-size: cover;
+    		height: 200px;
+    	}
+    	div.img-home-dos{
+    		background-image: url('../img/home2.jpg');
+    		background-repeat: no-repeat;
+    		border-radius: 20px;
+    		background-size: cover;
+    		height: 200px;
+    	}
 	}
 	footer{
 		background-color:$marron_oscuro_background;
