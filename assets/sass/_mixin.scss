@@ -1,0 +1,17 @@
+@mixin logo-home(){
+	color:$beige;
+	font-weight: bold;
+}
+@mixin caja-responsive(){
+	height:100%;
+	width:100%;
+}
+@mixin imagen-resposinve(){
+	width:100%;
+}
+@mixin imagen-info(){
+	margin-top: -30%;
+    z-index: 5;
+    position: relative;
+    margin-left: 20%;
+}

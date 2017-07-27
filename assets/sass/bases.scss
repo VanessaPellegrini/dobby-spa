@@ -1,0 +1,38 @@
+body{
+	background-color:#E1E1E1;
+	nav{
+		background-color: $marron;
+		ul{
+			margin-left: 32%;
+		}
+		a.home{
+			@include logo-home();
+		}
+	}
+	section.info{
+		background-color: $beige;
+		margin-top: -1.1%;
+		ul{
+			display: -webkit-box;
+			li{
+				margin-left: 5%;
+				img{
+					border:10px solid $arena_logo;
+					@include imagen-info();
+				}
+			}
+		}
+		div.caja-texto.row{
+			@include caja-responsive();
+			ul{
+				li{
+					width: 70%;
+					h5{
+						
+					}
+				}
+			}
+		}
+	}
+
+}

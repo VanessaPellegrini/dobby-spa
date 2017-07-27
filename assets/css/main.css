@@ -6772,4 +6772,32 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
+body {
+  background-color: #E1E1E1; }
+  body nav {
+    background-color: #2F1F20; }
+    body nav ul {
+      margin-left: 32%; }
+    body nav a.home {
+      color: #D8BE85;
+      font-weight: bold; }
+  body section.info {
+    background-color: #D8BE85;
+    margin-top: -1.1%; }
+    body section.info ul {
+      display: -webkit-box; }
+      body section.info ul li {
+        margin-left: 5%; }
+        body section.info ul li img {
+          border: 10px solid #C46521;
+          margin-top: -30%;
+          z-index: 5;
+          position: relative;
+          margin-left: 20%; }
+    body section.info div.caja-texto.row {
+      height: 100%;
+      width: 100%; }
+      body section.info div.caja-texto.row ul li {
+        width: 70%; }
+
 /*# sourceMappingURL=main.css.map */
