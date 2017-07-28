@@ -1,5 +1,5 @@
 body{
-	background-color:#000;
+	background-color:$marron_oscuro_background;
 	nav{
 		background-color: $marron;
 		ul{
@@ -106,5 +106,28 @@ body{
 	}
 	footer{
 		background-color:$marron_oscuro_background;
+		color:$beige;
+		border-top-color: $beige;
+    	border-top-style: solid;
+    	padding: 2%;
+    	i{
+    		padding: 20px;
+    		font-size: 20px;
+    	}
+    	small{
+    		color:$arena_logo;
+    	}
+		ul{
+			display: inline-flex;
+			li{
+				padding:20px;
+				img{
+					background-color:$beige;
+					padding: 5px;
+					border:10px solid $comillas;
+					width: 98%;
+				}
+			}
+		}
 	}
 }

@@ -6773,7 +6773,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   /*shape-rendering: crispEdges;*/ }
 
 body {
-  background-color: #000; }
+  background-color: #2F1F1F; }
   body nav {
     background-color: #2F1F20; }
     body nav ul {
@@ -6858,6 +6858,24 @@ body {
       background-size: cover;
       height: 200px; }
   body footer {
-    background-color: #2F1F1F; }
+    background-color: #2F1F1F;
+    color: #D8BE85;
+    border-top-color: #D8BE85;
+    border-top-style: solid;
+    padding: 2%; }
+    body footer i {
+      padding: 20px;
+      font-size: 20px; }
+    body footer small {
+      color: #C46521; }
+    body footer ul {
+      display: inline-flex; }
+      body footer ul li {
+        padding: 20px; }
+        body footer ul li img {
+          background-color: #D8BE85;
+          padding: 5px;
+          border: 10px solid #D2683E;
+          width: 98%; }
 
 /*# sourceMappingURL=main.css.map */
